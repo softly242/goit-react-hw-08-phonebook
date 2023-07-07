@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  font-family: 'Fondamento';
+  font-style: italic;
+}

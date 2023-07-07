@@ -1,0 +1,44 @@
+.contactsList {
+  width: 400px;
+  margin: 10px auto 0;
+  padding: 20px 20px 50px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.name, .phone {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 16px;
+  border-radius: 6px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.phone {
+  color: rgb(41, 41, 41);
+  font-size: 14px;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+
