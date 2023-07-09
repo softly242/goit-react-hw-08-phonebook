@@ -52,7 +52,7 @@ export default function Contacts() {
                 type="button"
                 name="delete"
                 auto
-                onClick={() => handleRemove(id)}
+                onPress={() => handleRemove(id)}
               >
                 Delete
               </Button>

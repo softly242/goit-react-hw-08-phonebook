@@ -59,7 +59,7 @@ export const contactsSlice = createSlice({
     [deleteContacts.fulfilled]: (state, { payload }) => {
       state.isLoading = false;
       state.error = null;
-      state.contacts.splice(state.contacts.findIndex(el => el.id !== payload.id), 1);
+      state.contacts.splice(state.contacts.findIndex(el => el.id === payload.id), 1);
     },
 
     [deleteContacts.rejected]: (state, { payload }) => {
